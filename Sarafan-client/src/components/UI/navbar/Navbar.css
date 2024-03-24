@@ -1,0 +1,71 @@
+.navbar {
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    padding: 0 5px 0 15px;
+}
+
+.navbar__body {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgba(0,0,0,.80);
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__left__column {
+    width: 250px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar__center__column {
+    width: 800px;
+}
+
+.navbar__right__column {
+    width: 250px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.app__title {
+    padding: 10px;
+    line-height: 60px;
+    vertical-align: middle;
+    font-size: 1.35em;
+}
+
+.app__nav ul {
+    list-style-position: unset;
+    margin: 0;
+    padding: 0;
+}
+
+.app__nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.app__nav ul li a {
+    display: inline-block;
+    line-height: 60px;
+    vertical-align: middle;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgba(0,0,0,0.65);
+}
+
+.app__nav ul li a:hover {
+    color: #0f96f6;
+}
+
+.app__nav ul li a.active {
+    color: #0f96f6;
+}
